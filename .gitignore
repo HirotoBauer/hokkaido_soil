@@ -1,0 +1,16 @@
+# Environment & direnv
+env/
+.envrc
+.direnv/
+
+# Python & Notebook caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Geospatial/Large Data (customize as needed)
+*.tif
+*.tiff
+*.nc
+*.gpkg
+data/

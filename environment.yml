@@ -1,0 +1,14 @@
+name: Hokkaido_Snow_Moisture
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - geopandas
+  - matplotlib
+  - cartopy
+  - jupyterlab
+  - ipykernel
