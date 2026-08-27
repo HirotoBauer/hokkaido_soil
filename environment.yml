@@ -1,4 +1,4 @@
-name: Hokkaido_Snow_Moisture
+name: hokkaido_soil
 channels:
   - conda-forge
   - nodefaults

@@ -3,6 +3,7 @@ env/
 .envrc
 .direnv/
 .vscode/
+.micromamba/
 
 # Python & Notebook caches
 __pycache__/

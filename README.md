@@ -5,7 +5,8 @@
 git clone https://github.com/HirotoBauer/hokkaido_soil
 
 # set up environment
-micromamba env create -f environment.yml
+cd into the project directory and run the following commands:
+micromamba create -p "$PWD/.micromamba" -f environment.yml
 micromamba activate hokkaido_soil_moisture
 pip install -e .
 

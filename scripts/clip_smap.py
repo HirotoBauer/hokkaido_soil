@@ -4,8 +4,8 @@ import gc
 import logging
 
 import geopandas as gpd
-
 from src.data.spatial import clip_raster
+
 from src.utils.paths import INTERM_DATA_DIR, RAW_DATA_DIR
 
 logging.basicConfig(
@@ -80,7 +80,7 @@ def main():
         if not shp_path.exists():
             raise FileNotFoundError(f"Shapefile not found at: {shp_path}")
 
-    selected_regions = {
+    selected_regions={
         region: gpd.read_file(region_file_map[region]) for region in args.regions
     }
     process_smap_clipping(resolutions=args.resolutions, regions=selected_regions)
