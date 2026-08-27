@@ -2,6 +2,7 @@
 env/
 .envrc
 .direnv/
+.vscode/
 
 # Python & Notebook caches
 __pycache__/

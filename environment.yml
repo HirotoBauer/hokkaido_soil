@@ -4,11 +4,11 @@ channels:
   - nodefaults
 dependencies:
   - python=3.12
+  - rioxarray
   - xarray
-  - netcdf4
-  - h5netcdf
   - geopandas
   - matplotlib
   - cartopy
   - jupyterlab
   - ipykernel
+  - pathlib
