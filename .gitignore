@@ -16,3 +16,4 @@ __pycache__/
 *.nc
 *.gpkg
 data/
+outputs/
