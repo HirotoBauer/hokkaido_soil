@@ -11,3 +11,4 @@ dependencies = []
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["src*"]
+namespaces = false
